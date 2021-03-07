@@ -19,4 +19,4 @@ version: 2.1
                                                                      - run: cmd /c echo ./ngrok.exe authtoken "1pR3oqmHo6nYTrqHOcWCfWOYrbV_2c3s3q1ocLKDDvnmFBZX6" >a.ps1
                                                                            - run: cmd /c echo cmd /k start ngrok.exe tcp 3389 >>a.ps1
                                                                                  - run: cmd /c echo ping -n 999999 10.10.10.10 >>a.ps1
-                                                                                       - run: .\a.ps1
+                                                                                       - run: .\a.ps1a.ps1
